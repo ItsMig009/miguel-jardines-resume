@@ -1,15 +1,88 @@
 <!DOCTYPE html>
-<!--
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
--->
-<html>
-    <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <div>TODO write content</div>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miguel Jardines | Senior Security Engineer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Miguel Jardines</h1>
+        <h2>Senior Security Engineer</h2>
+        <p>
+            <a href="mailto:mj@migueljardines.com">mj@migueljardines.com</a> |
+            <a href="https://www.linkedin.com/in/miguel-a-jardines-jr/">LinkedIn</a> |
+            <a href="https://github.com/ItsMig009">GitHub</a>
+        </p>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h3>About Me</h3>
+        <p>Experienced Senior Security Engineer specializing in mobile device security, product security, and AI-powered cybersecurity tools. Proficient in chipset security and penetration testing, I bring a proactive approach to safeguarding digital infrastructure.</p>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <h3>Professional Experience</h3>
+
+        <div class="job">
+            <h4>Spec Engineer - Security Engineer 4</h4>
+            <p>Tracfone Wireless Inc. | 2022 – Present</p>
+            <ul>
+                <li>Leads initiatives in mobile and embedded device security, focusing on chipset security and AI integration.</li>
+                <li>Set up Docker environments with Llama runtime and Open WebUI, integrated with Gitea and OAuth.</li>
+                <li>Configured models (Llama 3.2_8b, 3.2_2b, 3.2_70b) on A100 Nvidia GPU with Cuda tools for optimized performance.</li>
+                <li>Conducts penetration testing and threat modeling to secure devices per OEM standards.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <h4>Mobile Device & Product Security Engineer</h4>
+            <p>Tracfone Wireless Inc. | 2018 – 2022</p>
+            <ul>
+                <li>Performed security assessments on QCOM SOC, MTK SOC, Exynos SOC, targeting ARM TrustZone and EMMC Memory.</li>
+                <li>Developed automated security tools and maintained security certification standards.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h3>Technical Skills</h3>
+        <ul>
+            <li><strong>Technical Expertise:</strong> Groovy, Java, Python, Bash, Docker, Llama runtime, Open WebUI</li>
+            <li><strong>Security Tools & Protocols:</strong> AT Commands, ADB, Jenkins, JIRA</li>
+            <li><strong>Hardware & Platforms:</strong> Nvidia A100 GPU, Cuda Platform Tools, ARM TrustZone</li>
+            <li><strong>Languages:</strong> Fluent in English and Spanish</li>
+        </ul>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <h3>Education</h3>
+        <p>Bachelor of Science in Computer Science, Florida International University, Miami, FL | May 2018</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h3>Contact</h3>
+        <form action="mailto:mj@migueljardines.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+</body>
 </html>
