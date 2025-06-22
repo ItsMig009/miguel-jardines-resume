@@ -1,88 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Miguel Jardines | Senior Security Engineer</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Miguel Jardines · Senior Security Engineer</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
-    <!-- Header Section -->
-    <header>
+    <section class="container">
         <h1>Miguel Jardines</h1>
-        <h2>Senior Security Engineer</h2>
-        <p>
-            <a href="mailto:mj@migueljardines.com">mj@migueljardines.com</a> |
-            <a href="https://www.linkedin.com/in/miguel-a-jardines-jr/">LinkedIn</a> |
-            <a href="https://github.com/ItsMig009">GitHub</a>
+        <h2>Senior Security Engineer (2018–Present)</h2>
+        <p class="location">
+            Homestead, FL · 
+            <a href="mailto:mj@migueljardines.com">mj@migueljardines.com</a>
         </p>
-    </header>
 
-    <!-- About Section -->
-    <section id="about">
-        <h3>About Me</h3>
-        <p>Experienced Senior Security Engineer specializing in mobile device security, product security, and AI-powered cybersecurity tools. Proficient in chipset security and penetration testing, I bring a proactive approach to safeguarding digital infrastructure.</p>
-    </section>
+        <section>
+            <h3>Professional Summary</h3>
+            <p>
+                Security Engineer specializing in chipset and embedded systems security with a strong background in CVE risk analysis, test automation, and GenAI tool integration. Experienced in developing scalable, secure testing workflows for mobile and IoT platforms.
+            </p>
+        </section>
 
-    <!-- Experience Section -->
-    <section id="experience">
-        <h3>Professional Experience</h3>
-
-        <div class="job">
-            <h4>Spec Engineer - Security Engineer 4</h4>
-            <p>Tracfone Wireless Inc. | 2022 – Present</p>
+        <section>
+            <h3>Core Competencies</h3>
             <ul>
-                <li>Leads initiatives in mobile and embedded device security, focusing on chipset security and AI integration.</li>
-                <li>Set up Docker environments with Llama runtime and Open WebUI, integrated with Gitea and OAuth.</li>
-                <li>Configured models (Llama 3.2_8b, 3.2_2b, 3.2_70b) on A100 Nvidia GPU with Cuda tools for optimized performance.</li>
-                <li>Conducts penetration testing and threat modeling to secure devices per OEM standards.</li>
+                <li>Chipset Security (Qualcomm, MediaTek)</li>
+                <li>Embedded System Security (Android, IoT)</li>
+                <li>CVE Threat Analysis & Risk Mitigation</li>
+                <li>AT, Diag, and Fastboot Automation</li>
+                <li>Docker, Jenkins, Git, Linux (rootless setup)</li>
+                <li>Local LLM Deployment & Secure AI Integration</li>
             </ul>
-        </div>
+        </section>
 
-        <div class="job">
-            <h4>Mobile Device & Product Security Engineer</h4>
-            <p>Tracfone Wireless Inc. | 2018 – 2022</p>
+        <section>
+            <h3>Experience</h3>
+            <p><strong>Senior Security Engineer</strong> · 2018 - Present</p>
             <ul>
-                <li>Performed security assessments on QCOM SOC, MTK SOC, Exynos SOC, targeting ARM TrustZone and EMMC Memory.</li>
-                <li>Developed automated security tools and maintained security certification standards.</li>
+                <li>Led security testing for embedded platforms</li>
+                <li>Integrated AI-based vulnerability rule sets</li>
+                <li>Developed a CVE review process across teams</li>
+                <li>Built a containerized GenAI environment</li>
             </ul>
-        </div>
+        </section>
+
+        <section>
+            <h3>Projects</h3>
+            <ul>
+                <li><strong>AI Automation Tool:</strong> Test automation using Diag/AT/ADB</li>
+                <li><strong>CVE Analysis Platform:</strong> Workflow to improve risk review</li>
+                <li><strong>Private LLM Stack:</strong> Gitea, OpenWebUI, Jenkins integration</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Contact</h3>
+            <p>Email: <a href="mailto:mj@migueljardines.com">mj@migueljardines.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/miguel-a-jardines-jr" target="_blank">linkedin.com/in/miguel-a-jardines-jr</a></p>
+            <p>GitHub: <a href="https://github.com/ItsMig009" target="_blank">github.com/ItsMig009</a></p>
+        </section>
     </section>
-
-    <!-- Skills Section -->
-    <section id="skills">
-        <h3>Technical Skills</h3>
-        <ul>
-            <li><strong>Technical Expertise:</strong> Groovy, Java, Python, Bash, Docker, Llama runtime, Open WebUI</li>
-            <li><strong>Security Tools & Protocols:</strong> AT Commands, ADB, Jenkins, JIRA</li>
-            <li><strong>Hardware & Platforms:</strong> Nvidia A100 GPU, Cuda Platform Tools, ARM TrustZone</li>
-            <li><strong>Languages:</strong> Fluent in English and Spanish</li>
-        </ul>
-    </section>
-
-    <!-- Education Section -->
-    <section id="education">
-        <h3>Education</h3>
-        <p>Bachelor of Science in Computer Science, Florida International University, Miami, FL | May 2018</p>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <h3>Contact</h3>
-        <form action="mailto:mj@migueljardines.com" method="post" enctype="text/plain">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-
-            <button type="submit">Send</button>
-        </form>
-    </section>
-
 </body>
 </html>
