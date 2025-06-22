@@ -1,101 +1,48 @@
-/* General Styles */
-* {
-    box-sizing: border-box;
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
 }
 
-body {
-    color: #333;
-    line-height: 1.6;
-    padding: 20px;
+.container {
     max-width: 800px;
     margin: 0 auto;
+    padding: 40px 20px;
 }
 
-/* Header */
-header {
-    text-align: center;
-    margin-bottom: 20px;
+h1 {
+    font-size: 32px;
+    color: #ffffff;
 }
 
-header h1 {
-    font-size: 2.5em;
+h2 {
+    font-size: 20px;
+    color: #aaaaaa;
+    margin-top: -10px;
 }
 
-header h2 {
-    font-size: 1.5em;
-    color: #666;
-}
-
-header p a {
-    color: #007acc;
-    text-decoration: none;
-    margin: 0 5px;
-}
-
-header p a:hover {
-    text-decoration: underline;
-}
-
-/* Sections */
-section {
-    margin-bottom: 30px;
-}
-
-section h3 {
-    font-size: 1.8em;
-    margin-bottom: 10px;
-    border-bottom: 2px solid #007acc;
-    padding-bottom: 5px;
-}
-
-/* Experience */
-.job h4 {
-    font-size: 1.2em;
-    margin-bottom: 5px;
-}
-
-.job p {
-    font-style: italic;
-    color: #666;
+h3 {
+    color: #6ab0f3;
+    margin-top: 30px;
 }
 
 ul {
-    list-style-type: disc;
-    margin-left: 20px;
+    padding-left: 20px;
 }
 
-/* Skills */
-#skills ul li {
-    margin: 5px 0;
+a {
+    color: #90caf9;
+    text-decoration: none;
 }
 
-/* Contact Form */
-form {
-    display: flex;
-    flex-direction: column;
+a:hover {
+    text-decoration: underline;
 }
 
-form label {
-    margin-top: 10px;
-}
-
-form input, form textarea, form button {
-    padding: 8px;
-    margin-top: 5px;
-}
-
-form button {
-    background-color: #007acc;
-    color: white;
-    border: none;
-    cursor: pointer;
-    padding: 10px;
-    margin-top: 15px;
-}
-
-form button:hover {
-    background-color: #005f99;
+.location {
+    font-size: 14px;
+    color: #999;
 }
